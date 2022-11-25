@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format("woff2"),
+  url('../fonts/Roboto-Regular.woff2') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('../fonts/Roboto-Bold.woff2') format("woff2"),
+  url('../fonts/Roboto-Bold.woff') format("woff");
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('../fonts/TTFirsNeue-Bold.woff2') format("woff2"),
+  url('../fonts/TTFirsNeue-Bold.woff') format("woff");
+  font-family: 'TTFirsNeue';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('../fonts/TTFirsNeue-Regular.woff2') format("woff2"),
+  url('../fonts/TTFirsNeue-Regular.woff') format("woff");
+  font-family: 'TTFirsNeue';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+  .header__link {
+    font-family: 'TTFirsNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  h2 {
+    margin: 0;
+    font-family: 'TTFirsNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    @media (max-width: 360px) {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+  h3 {
+    margin: 0;
+    font-family: 'TTFirsNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 104%;
+    color: #FFFFFF;
+  }
+  h4 {
+    margin: 0;
+    font-family: 'TTFirsNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    @media (max-width: 360px) {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  .header__input::placeholder {
+    font-family: 'TTFirsNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E9E9E9;
+  }
+  p {
+    margin: 0;
+  }
+  .hero__dscr p {
+    margin-bottom: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    @media (max-width: 360px) {
+      margin-bottom: 9px;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  .hero__link {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    @media (max-width: 360px) {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  .dscr,
+  .dscr-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .contacts__tel {
+    margin: 0;
+    font-family: 'TTFirsNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
